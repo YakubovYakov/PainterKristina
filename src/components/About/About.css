@@ -1,0 +1,860 @@
+.about {
+    font-family: 'Roboto Flex';
+    margin-top: 120px;
+    background-image: url("../../images/about.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    background-size: contain;
+}
+
+.about__description {
+    margin: 605px 96px 0 0;
+    width: 1000px;
+    padding: 72px 120px;
+    display: flex;
+    background: #9CA3AF;
+    flex-direction: column;
+}
+
+.about__text {
+    width: 674px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.about__snake {
+    margin: 0 0 120px 96px;
+}
+
+
+
+.about__snake_text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 16px 0 0 0;
+}
+
+.about__lion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 120px 96px 0;
+}
+
+.lion__description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 120px 0;
+}
+
+.lion__title {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 104px;
+    margin: 0 0 56px 0;
+}
+
+.lion__text {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    width: 734px;
+}
+
+.lion__image {
+    width: 576px;
+    height: 770px;
+}
+
+.lion__image_text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 16px 0 0 0;
+}
+
+.exhibition__title {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 104px;
+    margin: 0;
+
+}
+
+.table {
+    margin-top: 128px;
+}
+
+.table__top {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table__arrow {
+    margin-left: 72px;
+}
+
+.table__title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 610px;
+}
+
+.table__line_top {
+    width: 1px;
+    height: 68px;
+    background: #FFF;
+}
+
+
+.table__bot {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table__line_bot {
+    width: 1px;
+    height: 404px;
+    background: #FFF;
+    margin: 16px 0;
+}
+
+.table__text {
+    width: 610px;
+}
+
+.table__bot_title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 2.4px
+}
+
+.table__bot_text {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 1.92px;
+}
+
+
+.table__title_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1450px) {
+
+
+    .about {
+        margin-top: 100px;
+    }
+
+
+    .about__description {
+        margin: 500px 96px 0 0;
+        width: 850px;
+        padding: 72px;
+    }
+
+    .about__snake_container {
+        width: 814px;
+        height: 605px;
+    }
+
+    .about__snake_text {
+        margin: 8px 0 0 0;
+    }
+
+    .about__snake_image {
+        width: 814px;
+        height: 579px;
+    }
+
+
+    .lion__title {
+        font-size: 64px;
+        line-height: 70px;
+    }
+
+    .lion__text {
+        font-size: 20px;
+        line-height: 24px;
+        width: 516px;
+    }
+
+    .lion__image {
+        width: 452px;
+        height: 572px;
+    }
+
+    .lion__image_text {
+        margin: 8px 0 0 0;
+    }
+
+    .exhibition__title {
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 104px;
+
+    }
+
+    .table {
+        margin-top: 96px;
+    }
+
+    .table__arrow {
+        margin-left: 32px;
+    }
+
+    .table__title {
+        font-size: 26px;
+        line-height: 32px;
+        width: 520px;
+        margin: 0 32px;
+    }
+
+    .table__line_top {
+        width: 1px;
+        height: 68px;
+        background: #FFF;
+    }
+
+
+
+    .table__text {
+        width: 551px;
+    }
+
+    .table__bot_title {
+        font-size: 38px;
+        line-height: 46px;
+        letter-spacing: 2.28px
+    }
+
+    .table__bot_text {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 1.68px;
+    }
+
+}
+
+@media screen and (max-width: 1070px) {
+    .about__description {
+        margin: 400px 64px 0 0;
+        width: 760px;
+        padding: 56px;
+    }
+
+    .about__text {
+        width: 568px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    .about__snake {
+        margin: 0 0 120px 40px;
+    }
+
+    .about__snake_container {
+        width: 824px;
+        height: 597px;
+    }
+
+
+    .lion__description {
+        margin-right: 40px;
+    }
+
+    .lion__title {
+        font-size: 64px;
+        line-height: 70px;
+    }
+
+    .lion__text {
+        font-size: 20px;
+        line-height: 24px;
+        width: 500px;
+    }
+
+    .lion__image {
+        width: 350px;
+        height: 540px;
+
+    }
+
+
+
+    .table {
+        margin-top: 96px;
+    }
+
+
+
+    .table__arrow {
+        margin-left: 32px;
+    }
+
+    .table__title {
+        font-size: 22px;
+        line-height: 28px;
+        width: 460px;
+    }
+
+    .table__text {
+        width: 460px;
+    }
+
+    .table__bot_title {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        /* 131.25% */
+        letter-spacing: 1.92px;
+    }
+
+    .table__bot_text {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 125% */
+        letter-spacing: 1.44px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+    .about__description {
+        margin: 300px 64px 0 0;
+        width: 568px;
+        padding: 48px;
+    }
+
+    .about__text {
+        width: 472px;
+        font-size: 20px;
+
+    }
+
+    .about__snake {
+        margin: 0 0 120px 40px;
+    }
+
+    .about__snake_container {
+        width: 696px;
+        height: 521px;
+    }
+
+    .about__snake_image {
+        width: 696px;
+        height: 495px;
+    }
+
+
+    .about__lion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 120px 36px 0;
+    }
+
+    .lion__description {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 120px 0;
+    }
+
+    .lion__title {
+        font-size: 64px;
+        line-height: 70px;
+        margin: 0 0 56px 0;
+    }
+
+    .lion__text {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        width: 691px;
+
+    }
+
+    .lion__image {
+        width: 692px;
+        height: 572px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .lion__image_text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 8px 0 0 0;
+    }
+
+    .exhibition {
+        margin-top: 120px;
+    }
+
+    .exhibition__title {
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 104px;
+
+
+    }
+
+    .table {
+        margin-top: 128px;
+    }
+
+    .table__top {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .table__arrow {
+        margin-left: 72px;
+    }
+
+    .table__title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 34px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        width: 610px;
+        margin: 0;
+    }
+
+    .table__line_top {
+        display: none;
+    }
+
+
+    .table__bot {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .table__line_bot {
+        width: 100%;
+        height: 1px;
+    }
+
+    .table__title_full {
+        display: none;
+    }
+
+    .table__title_mobile {
+        justify-content: center;
+    }
+
+    .table__text {
+        width: 598px;
+
+    }
+
+    .table__bot_title {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 2.4px
+    }
+
+    .table__bot_text {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 1.92px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+
+    .about {
+        margin: 40px 0 0 0;
+    }
+
+
+    .about__description {
+        margin: 170px 64px 0 0;
+        width: 282px;
+        padding: 32px;
+    }
+
+
+    .about__text {
+        width: 472px;
+        font-size: 20px;
+
+    }
+
+    .about__snake {
+        margin: 0 0 88px 32px;
+    }
+
+    .about__snake_container {
+
+        height: 318px;
+    }
+
+    .about__snake_image {
+        width: 416px;
+        height: 296px;
+    }
+
+
+    .lion__description {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 88px 0;
+    }
+
+    .lion__title {
+        font-size: 48px;
+        line-height: 56px;
+        margin: 0 0 32px 0;
+    }
+
+    .lion__text {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        width: 417px;
+
+    }
+
+    .lion__image {
+        width: 416px;
+        height: 344px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .lion__image_text {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px;
+        margin: 8px 0 0 0;
+    }
+
+    .exhibition__title {
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 104px;
+        margin: 0;
+
+    }
+
+    .table {
+        margin: 56px auto 0 auto;
+
+    }
+
+    .table__top {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .table__arrow {
+        margin-left: 48px;
+        width: 30px;
+    }
+
+    .table__title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 34px;
+        width: 416px;
+        margin: 0;
+    }
+
+    .table__line_top {
+        display: none;
+    }
+
+
+    .table__bot {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .table__line_bot {
+        width: 100%;
+        height: 1px;
+    }
+
+    .table__title_full {
+        display: none;
+    }
+
+    .table__title_mobile {
+        justify-content: center;
+    }
+
+    .table__text {
+        width: 416px;
+
+    }
+
+    .table__bot_title {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 125% */
+        letter-spacing: 1.92px;
+    }
+
+    .table__bot_text {
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        /* 123.077% */
+        letter-spacing: 1.56px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+    .about {
+        margin: 32px 0 0 0;
+    }
+
+
+
+    .about__description {
+        margin: 100px 24px 0 24px;
+        width: 272px;
+        padding: 24px;
+    }
+
+
+    .about__text {
+        width: 224px;
+        font-size: 10px;
+        line-height: 14px;
+
+    }
+
+    .about__snake {
+        margin: 0 0 88px 32px;
+    }
+
+    .about__snake_text {
+
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px;
+    }
+
+    .about__snake_image {
+        width: 272px;
+        height: 194px;
+    }
+
+    .about__snake_container {
+        width: 272px;
+        height: 216px;
+    }
+
+    .about__lion {
+        margin: 0 auto;
+    }
+
+    .lion__description {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 72px 0;
+    }
+
+    .lion__title {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 42px;
+        margin: 0 0 24px 0;
+    }
+
+    .lion__text {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 14px;
+        width: 272px;
+
+    }
+
+    .lion__image {
+        width: 272px;
+        height: 224px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .lion__image_text {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px;
+        margin: 8px 0 0 0;
+    }
+
+    .exhibition__title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        margin: 0;
+
+    }
+
+    .table {
+        margin: 32px auto 0 auto;
+
+    }
+
+    .table__top {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .table__arrow {
+        margin-left: 16px;
+        width: 20px;
+    }
+
+    .table__title {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 18px;
+        width: 274px;
+        margin: 0;
+    }
+
+    .table__line_top {
+        display: none;
+    }
+
+
+    .table__bot {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .table__line_bot {
+        width: 100%;
+        height: 1px;
+    }
+
+    .table__title_full {
+        display: none;
+    }
+
+    .table__title_mobile {
+        justify-content: center;
+    }
+
+    .table__text {
+        width: 274px;
+
+    }
+
+    .table__bot_title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        /* 128.571% */
+        letter-spacing: 1.68px;
+    }
+
+    .table__bot_text {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 127.273% */
+        letter-spacing: 1.32px;
+    }
+}

@@ -1,0 +1,34 @@
+body {
+  background: #9ca3af;
+  font-family: "Roboto Flex";
+  color: white;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+@import url(./vendor/normalize.css);
+@import url(./components/Main/Main.css);
+@import url(./components/About/About.css);
+@import url(./components/Art/Art.css);
+@import url(./components/ArtCard/ArtCard.css);
+@import url(./components/Contact/Contact.css);
+@import url(./components/Cooperation/Cooperation.css);
+@import url(./components/Delivery/Delivery.css);
+@import url(./components/Design/Design.css);
+@import url(./components/Footer/Footer.css);
+@import url(./components/Mk/Mk.css);
+@import url(./components/Navbar/Navbar.module.css);
+@import url(./components/Order/Order.css);
+@import url(./vendor/stylesheet.css);
+@import url(./components/Gallery/Gallery.css);
+
+/*@import url();*/
