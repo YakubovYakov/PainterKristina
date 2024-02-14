@@ -54,7 +54,14 @@
     width: 180px;
     height: 299px;
   }
-  
+  .swiper_container {
+    margin-top: 32px;
+    margin-bottom: 40px;
+   }
+
+   .look__gallery{
+    margin: 0;
+   }
 }
 
 

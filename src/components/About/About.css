@@ -691,8 +691,6 @@
         margin: 32px 0 0 0;
     }
 
-
-
     .about__description {
         margin: 100px 24px 0 24px;
         width: 272px;
@@ -708,7 +706,7 @@
     }
 
     .about__snake {
-        margin: 0 0 88px 32px;
+        margin: 0 0 24px 24px;
     }
 
     .about__snake_text {
@@ -736,7 +734,7 @@
     .lion__description {
         display: flex;
         flex-direction: column;
-        margin: 0 0 72px 0;
+        margin: 0 0 24px 0;
     }
 
     .lion__title {
@@ -769,6 +767,11 @@
         font-weight: 500;
         line-height: 14px;
         margin: 8px 0 0 0;
+    }
+
+    .exhibition{
+        margin-top: 40px;
+        border-bottom: 1px solid white;
     }
 
     .exhibition__title {
@@ -841,19 +844,19 @@
     }
 
     .table__bot_title {
-        font-size: 28px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 700;
-        line-height: 36px;
+        line-height: 28px;
         /* 128.571% */
         letter-spacing: 1.68px;
     }
 
     .table__bot_text {
-        font-size: 22px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 28px;
+        line-height: 22px;
         /* 127.273% */
         letter-spacing: 1.32px;
     }

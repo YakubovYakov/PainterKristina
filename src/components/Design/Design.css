@@ -636,12 +636,13 @@
     }
 
     .design__subtitle {
-        width: 200px;
+        width: 170px;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: 26px;
         margin: 0 0 79px 0;
+        text-align: left;
     }
 
     .design__text {
@@ -683,12 +684,15 @@
         transform: scale(-1);
         border-top: 1px solid white;
         padding: 16px 10px;
-
+        width: 20px;
+       height: 20px;
     }
 
     .look__arrow_right {
         border-bottom: 1px solid white;
         padding: 16px 10px;
+        width: 20px;
+       height: 20px;
     }
 
 
@@ -704,7 +708,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        margin: 56px 0 0 32px;
+        margin: 32px 0 0 24px;
         column-gap: 0;
         row-gap: 0px;
         width: 268px;

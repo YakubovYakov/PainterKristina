@@ -221,7 +221,7 @@
 @media screen and (max-width: 400px) {
 
     .footer {
-        padding: 56px 24px;
+        padding: 40px 16px 16px;
     }
 
     .footer__pravila {
@@ -246,5 +246,13 @@
 
     .footer__icons_elem {
        margin-left: 85px;
+    }
+
+
+    .footer__copy {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
     }
 }

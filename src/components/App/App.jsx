@@ -55,7 +55,7 @@ function App() {
           <>
           <NAvbar />
           <About />
-       
+          <Footer/>
           </>
          }
         />

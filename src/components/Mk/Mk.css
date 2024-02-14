@@ -210,7 +210,10 @@
 
 
 @media screen and (max-width: 415px) {
-
+    .mk{
+    padding-top: 0;
+    padding-bottom: 40px;
+    }
 
     .mk__description {
         width: 272px;
@@ -222,7 +225,8 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
-        line-height: 22px
+        line-height: 22px;
+        margin-bottom: 0;
     }
 
     .mk__link {
@@ -230,6 +234,7 @@
         font-style: normal;
         font-weight: 900;
         line-height: 20px;
+     
     }
 
     .mk__arrow {
