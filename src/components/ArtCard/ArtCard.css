@@ -62,8 +62,14 @@
     border-radius: 100%;
 }
 
-.card__circle:active {
+.card__circle_active {
     background-color:black;
+    position: relative;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 100%;
 }
 
 .card__description {
@@ -330,6 +336,12 @@
     }
 
     .card__circle {
+        width: 15px;
+        height: 15px;
+
+    }
+
+    .card__circle_active {
         width: 15px;
         height: 15px;
 
