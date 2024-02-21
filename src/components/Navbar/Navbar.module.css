@@ -232,7 +232,7 @@
   }
 
   .menu__title{
-    margin: 40px 0 32px 0 ;
+    margin: 72px 0 32px 0 ;
   }
 
 
@@ -244,20 +244,24 @@
   }
 
   .menu__title {
-    font-size: 64px;
+    font-size: 56px;
     font-style: normal;
     font-weight: 900;
-    line-height: 70px;
+    line-height: 60px;
   }
 
   .menu__link {
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 34px;
+    line-height: 28px;
     width: 272px;
+    padding: 0 0 16px 0;
   }
 
+  .menu__links {
+gap: 16px;
+  }
   .header {
     margin: 24px 24px 0;
   }
