@@ -223,16 +223,8 @@
     line-height: 20px;
   }
 
-  .header__lang {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-  }
+ 
 
-  .header__search{
-    width: 16px;
-    height: 16px;
-  }
 
   .header__burger{
     width: 24px;
@@ -243,10 +235,7 @@
     margin: 40px 0 32px 0 ;
   }
 
-  .header__close{
-    width: 16px;
-    height: 16px;
-  }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -278,9 +267,9 @@
   }
 
   .header__title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 20px;
   }
 
   .header__right {
@@ -288,15 +277,15 @@
   }
 
   .header__search {
-    width: 15px;
-    height: 15px;
+    width: 24px;
+    height: 24px;
   }
 
   .header__lang{
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 28px;
   }
 
   .menu{

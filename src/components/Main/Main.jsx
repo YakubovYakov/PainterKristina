@@ -15,8 +15,9 @@ function Main() {
           <h2 class="main__name_text">{t('last name')}</h2>
           <h2 class="main__name_text">{t('name')}</h2>
         </div>
-
+        <div class="main__subtitle_container">
         <h1 class="main__subtitle">{t('main title')}</h1>
+        </div>
         <div class="main__text_container">
           <p class="main__text">
           {t('main subtitle')}
