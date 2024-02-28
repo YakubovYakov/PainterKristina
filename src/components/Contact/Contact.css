@@ -610,11 +610,11 @@
     }
 
     .contact__title {
-        margin: 32px 0 24px;
-        font-size: 32px;
+        margin: 32px 0 0;
+        font-size: 48px;
         font-style: normal;
         font-weight: 900;
-        line-height: 40px;
+        line-height: 52px;
     }
 
     .contact__content {
@@ -653,6 +653,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: 28px;
+        padding-bottom: 8px;
     }
 
     .column__name {

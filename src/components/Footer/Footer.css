@@ -221,16 +221,20 @@
 @media screen and (max-width: 400px) {
 
     .footer {
-        padding: 40px 16px 16px;
+        padding: 0 16px 16px;
     }
 
     .footer__pravila {
-        margin: 16px 0;
+        margin: 24px 0;
     }
 
     .footer__right{
         padding-top: 0;
  
+    }
+
+    .footer__text{
+        margin-top: 16px;
     }
 
     .footer__small{
@@ -242,6 +246,7 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: baseline;
+        margin-bottom: 24px;
     }
 
     .footer__icons_elem {

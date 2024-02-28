@@ -425,8 +425,8 @@
 
         grid-template-columns:  1fr;
         grid-template-rows: repeat(13, 1fr);
-        row-gap: 32px;
-        
+        row-gap: 24px;
+       
      
     }
 
@@ -455,7 +455,7 @@
 
     .card__pic_big {
         height: 252px;
-        width: 272px;
+        width: 240px;
         padding: 16px;
 
     }

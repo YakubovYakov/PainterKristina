@@ -1,5 +1,6 @@
 import React from "react";
 import design from "../../images/design.png";
+import design_mobile from "../../images/Frame 514691.png";
 import inst from "../../images/Social icon.svg";
 import pint from "../../images/Social icon 2.svg";
 import Gallery from "../Gallery/Gallery";
@@ -18,6 +19,7 @@ function Design() {
           </p>
         </div>
         <img className="design__image" src={design} alt="design" />
+        <img className="design__image_mobile" src={design_mobile} alt="design" />
       </section>
       <section className="design__content">
         <p className="design__text">
