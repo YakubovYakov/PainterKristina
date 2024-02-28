@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PainterKristina/static/css/main.f159b0cb.css",
-    "main.js": "/PainterKristina/static/js/main.5ad56fc9.js",
+    "main.css": "/PainterKristina/static/css/main.5ef8da76.css",
+    "main.js": "/PainterKristina/static/js/main.633afcd1.js",
     "static/js/592.08864505.chunk.js": "/PainterKristina/static/js/592.08864505.chunk.js",
     "static/media/about.png": "/PainterKristina/static/media/about.cdeb676d9aa340595592.png",
     "static/media/art-pic.png": "/PainterKristina/static/media/art-pic.cc430d51ee49c112cc33.png",
@@ -18,6 +18,7 @@
     "static/media/menu-pic.png": "/PainterKristina/static/media/menu-pic.659eefc0deaad7ca1d62.png",
     "static/media/look2.png": "/PainterKristina/static/media/look2.1c536f888e69b3159ad0.png",
     "static/media/design.png": "/PainterKristina/static/media/design.9227cb6c2ff78500e186.png",
+    "static/media/Frame 514691.png": "/PainterKristina/static/media/Frame 514691.91a1626803a4f2d1657f.png",
     "static/media/Frame 514551.png": "/PainterKristina/static/media/Frame 514551.d73e7d4947efbe3d4cd8.png",
     "static/media/contact-pic.png": "/PainterKristina/static/media/contact-pic.7357f52ed2983049fdeb.png",
     "static/media/del-pic.png": "/PainterKristina/static/media/del-pic.75634804e60941e29120.png",
@@ -79,12 +80,12 @@
     "index.html": "/PainterKristina/index.html",
     "static/media/CloseCircle.svg": "/PainterKristina/static/media/CloseCircle.fb218ab2ca3ff39c194c9a24101049fb.svg",
     "static/media/Arrow.svg": "/PainterKristina/static/media/Arrow.8bd302ab01ac766028279a1cb7ab7609.svg",
-    "main.f159b0cb.css.map": "/PainterKristina/static/css/main.f159b0cb.css.map",
-    "main.5ad56fc9.js.map": "/PainterKristina/static/js/main.5ad56fc9.js.map",
+    "main.5ef8da76.css.map": "/PainterKristina/static/css/main.5ef8da76.css.map",
+    "main.633afcd1.js.map": "/PainterKristina/static/js/main.633afcd1.js.map",
     "592.08864505.chunk.js.map": "/PainterKristina/static/js/592.08864505.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f159b0cb.css",
-    "static/js/main.5ad56fc9.js"
+    "static/css/main.5ef8da76.css",
+    "static/js/main.633afcd1.js"
   ]
 }
