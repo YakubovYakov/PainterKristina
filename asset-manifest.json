@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PainterKristina/static/css/main.5ef8da76.css",
-    "main.js": "/PainterKristina/static/js/main.633afcd1.js",
+    "main.css": "/PainterKristina/static/css/main.ac0566dd.css",
+    "main.js": "/PainterKristina/static/js/main.5d16d858.js",
     "static/js/592.08864505.chunk.js": "/PainterKristina/static/js/592.08864505.chunk.js",
     "static/media/about.png": "/PainterKristina/static/media/about.cdeb676d9aa340595592.png",
     "static/media/art-pic.png": "/PainterKristina/static/media/art-pic.cc430d51ee49c112cc33.png",
@@ -80,12 +80,12 @@
     "index.html": "/PainterKristina/index.html",
     "static/media/CloseCircle.svg": "/PainterKristina/static/media/CloseCircle.fb218ab2ca3ff39c194c9a24101049fb.svg",
     "static/media/Arrow.svg": "/PainterKristina/static/media/Arrow.8bd302ab01ac766028279a1cb7ab7609.svg",
-    "main.5ef8da76.css.map": "/PainterKristina/static/css/main.5ef8da76.css.map",
-    "main.633afcd1.js.map": "/PainterKristina/static/js/main.633afcd1.js.map",
+    "main.ac0566dd.css.map": "/PainterKristina/static/css/main.ac0566dd.css.map",
+    "main.5d16d858.js.map": "/PainterKristina/static/js/main.5d16d858.js.map",
     "592.08864505.chunk.js.map": "/PainterKristina/static/js/592.08864505.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ef8da76.css",
-    "static/js/main.633afcd1.js"
+    "static/css/main.ac0566dd.css",
+    "static/js/main.5d16d858.js"
   ]
 }
