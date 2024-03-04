@@ -19,7 +19,6 @@ function Design() {
           </p>
         </div>
         <img className="design__image" src={design} alt="design" />
-        <img className="design__image_mobile" src={design_mobile} alt="design" />
       </section>
       <section className="design__content">
         <p className="design__text">

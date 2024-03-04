@@ -623,17 +623,13 @@
         padding: 0 24px;
     }
 
-    .design__image {
-        display: none;
-    }
-
     .design__image_mobile {
         width: 300px;
         height: 300px;
         position: absolute;
         top: 104px;
         align-self: center;
-        display: block;
+    
         
     }
 
