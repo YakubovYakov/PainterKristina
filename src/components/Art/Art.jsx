@@ -1,10 +1,12 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
+import artPic from "../../images/art-pic.png"
 
 function Art() {
   const { t } = useTranslation();
   return (
     <section className="art">
+			<img className="art__img" alt="Tiger pic" src={artPic} />
       <div className="art__description">
         <h1 className="art__title">{t('art')}</h1>
         <h2 class="art__name">{t('full name')}</h2>

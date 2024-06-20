@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Main from "../Main/Main";
-import NAvbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 import Art from "../Art/Art";
 import ArtCard from "../ArtCard/ArtCard";
-import Contact from "../Contact/contact";
+import Contact from "../Contact/Сontact";
 import Mk from "../Mk/Mk";
 import Footer from "../Footer/Footer";
 import Delivery from "../Delivery/Delivery";
@@ -21,8 +21,8 @@ function App() {
           path="/*"
           element={
             <>
-              <NAvbar />
-              <Main />              
+              <Navbar />
+              <Main />
             </>
           }
         />
@@ -30,72 +30,72 @@ function App() {
           path="/art"
           element={
             <>
-              <NAvbar />
+              <Navbar />
               <Art />
-              <ArtCard/>
-              <Mk/>
-              <Footer/>
+              <ArtCard />
+              <Mk />
+              <Footer />
             </>
           }
         />
 
-        <Route 
-         path="/contact"
-         element={
-          <>
-          <NAvbar />
-          <Contact />
-          </>
-         }
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Navbar />
+              <Contact />
+            </>
+          }
         />
 
-<Route 
-         path="/about"
-         element={
-          <>
-          <NAvbar />
-          <About />
-          <Footer/>
-          </>
-         }
+        <Route
+          path="/about"
+          element={
+            <>
+              <Navbar />
+              <About />
+              <Footer />
+            </>
+          }
         />
 
-<Route 
-         path="/delivery"
-         element={
-          <>
-          <NAvbar />
-          <Delivery />
-          </>
-         }
+        <Route
+          path="/delivery"
+          element={
+            <>
+              <Navbar />
+              <Delivery />
+            </>
+          }
         />
-        <Route 
-         path="/cooperation"
-         element={
-          <>
-          <NAvbar />
-          <Cooperation />
-          </>
-         }
+        <Route
+          path="/cooperation"
+          element={
+            <>
+              <Navbar />
+              <Cooperation />
+            </>
+          }
         />
-           <Route 
-         path="/order"
-         element={
-          <>
-          <NAvbar />
-          <Order />
-          </>
-         }
+        <Route
+          path="/order"
+          element={
+            <>
+              <Navbar />
+              <Order />
+            </>
+          }
         />
-        <Route 
-         path="/design"
-         element={
-          <>
-          <NAvbar />
-          <Design />
-          <Footer/>
-          </>
-         }
+        <Route
+          path="/design"
+          element={
+            <>
+              <Navbar />
+              <Design />
+              <Footer />
+            </>
+          }
         />
       </Routes>
     </body>

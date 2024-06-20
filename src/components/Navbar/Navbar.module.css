@@ -223,19 +223,14 @@
     line-height: 20px;
   }
 
- 
-
-
-  .header__burger{
+  .header__burger {
     width: 24px;
     height: 24px;
   }
 
-  .menu__title{
-    margin: 72px 0 32px 0 ;
+  .menu__title {
+    margin: 72px 0 48px 0;
   }
-
-
 }
 
 @media screen and (max-width: 400px) {
@@ -260,7 +255,7 @@
   }
 
   .menu__links {
-gap: 16px;
+    gap: 16px;
   }
   .header {
     margin: 24px 24px 0;
@@ -279,7 +274,8 @@ gap: 16px;
   }
 
   .header__right {
-    gap: 16px;
+    gap: 14px;
+		margin-bottom: 11px;
   }
 
   .header__search {
@@ -287,16 +283,14 @@ gap: 16px;
     height: 24px;
   }
 
-  .header__lang{
+  .header__lang {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
   }
 
-  .menu{
+  .menu {
     padding: 0 24px;
   }
-
-
 }

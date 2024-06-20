@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import useLocalStorage from '../hooks/use-localstorage';
 import i18n from '../../i18n';
 
-const NAvbar = () => {
+const Navbar = () => {
   const { t } = useTranslation();
   const [nav, setNav] = useState(false);
   
@@ -31,7 +31,7 @@ const NAvbar = () => {
            <button className="header__lang" onClick={handleLenguageChange}>
                 {language === 'ru' ? t('EN') : t('RU')}
             </button>
-          <li class="header__search"></li>
+          
           <div className="header__burger " onClick={() => setNav(true)}>
             {" "}
           </div>
@@ -49,7 +49,6 @@ const NAvbar = () => {
             <button className="header__lang" onClick={handleLenguageChange}>
                 {language === 'ru' ? t('EN') : t('RU')}
             </button>
-              <li class="header__search"></li>
               <div >
                 <img className="header__close" onClick={() => setNav(false)} src={close} alt="icon" />
               </div>
@@ -80,4 +79,4 @@ const NAvbar = () => {
   );
 };
 
-export default NAvbar;
+export default Navbar;

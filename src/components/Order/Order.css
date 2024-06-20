@@ -1,104 +1,220 @@
 .order {
-    padding: 120px 0 0 96px;
-    background-image: url(../../images/order.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-
+  padding: 120px 0 0 96px;
+  background-image: url(../../images/order.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
-
 .order__text {
-    width: 809px;
+  width: 809px;
 }
 
 .order__title {
-    margin: 120px 0 31px 0;
-    font-size: 128px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 134px;
-    z-index: 5;
-    position: relative;
+  margin: 120px 0 31px 0;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 134px;
+  z-index: 5;
+  position: relative;
 }
 
 .order__text {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px;
-    width: 809px;
-    margin: 0 0 58px 0;
-    z-index: 5;
-    position: relative;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  width: 809px;
+  margin: 0 0 58px 0;
+  z-index: 5;
+  position: relative;
 }
 
 .order__email {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 50px;
-    z-index: 5;
-    position: relative;
-    
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50px;
+  z-index: 5;
+  position: relative;
 }
 
-
 @media screen and (max-width: 950px) {
-    .order__text {
-        width: 700px;
-    }
-
+  .order__text {
+    width: 700px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .order__text {
-        width: 500px;
-    }
+  .order__text {
+    width: 500px;
+  }
 
-    .order__title {
-        margin: 0 0 31px 0;
-        font-size: 104px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 110px;
-        z-index: 5;
-        position: relative;
-    }
-
+  .order__title {
+    margin: 0 0 31px 0;
+    font-size: 104px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110px;
+    z-index: 5;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .order__text {
-        width: 272px;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 24px;
-    }
+  .order__text {
+    width: 272px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
 
-    .order__title {
-        margin: 0 0 31px 0;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 40px;
-        z-index: 5;
-        position: relative;
-    }
+  .order__title {
+    margin: 0 0 31px 0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    z-index: 5;
+    position: relative;
+  }
 
-    .order__email {
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 24px;
-        z-index: 5;
-        position: relative;
-    }
+  .order__email {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    z-index: 5;
+    position: relative;
+  }
 
-   .order{
+  .order {
     background-size: 350px 350px;
     padding: 32px 24px 150px 24px;
- 
-   }
+  }
+}
 
+@media screen and (max-width: 450px) {
+  .order__title {
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  .order__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .order__paragraph {
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .order__item {
+    height: 29px;
+    min-width: 272px;
+    padding: 0 0 0px 0;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border-bottom: 3px solid #fff;
+  }
+
+	.order__container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+  .order__checkbox {
+    margin: 16px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .order__input-checkbox {
+    -webkit-appearance: none; /* Убираем стандартное оформление чекбокса */
+    -moz-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 11.651px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+  }
+
+  .order__input-checkbox:checked {
+    background-color: transparent; /* Прозрачный фон для отмеченного состояния */
+  }
+
+  .order__input-checkbox:checked::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 2.5px;
+    width: 2px;
+    height: 6px;
+    border: solid #fff;
+    border-width: 0 1.3px 1.4px 0;
+    transform: rotate(45deg);
+  }
+
+  .order__checkbox-label {
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .order__input-button {
+		display: flex;
+		align-items: center;
+		margin: 32px 0 0 0;
+		gap: 16px;
+		width: 90px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto Flex";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px; 
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    
+  }
+
+  .order__input-button img {
+    width: 24px;
+    height: 24px;
+		opacity: 0.7;
+  }
 }

@@ -44,7 +44,7 @@ function Footer() {
             Telegram, WhatsApp <span className="footer__span">+375-44-741-00-40</span>
           </p>
           <p className="footer__pravila">Правила и Условия</p>
-          <p className="footer__copy">© 2023 AFANASEVA ART STUDIO</p>
+          <p className="footer__copy">© 2024 AFANASEVA ART STUDIO</p>
         </div>
       </div>
     </section><section className=" footer footer__small">
@@ -72,8 +72,8 @@ function Footer() {
              телефону <span className="footer__span">+7-968-760-73-10</span> с понедельника по субботу
              Telegram, WhatsApp <span className="footer__span">+375-44-741-00-40</span>
            </p>
-           <p className="footer__pravila">Правила и Условия</p>
-           <p className="footer__copy">© 2023 AFANASEVA ART STUDIO</p>
+           <p className="footer__items">Правила и Условия</p>
+           <p className="footer__copy">© 2024 AFANASEVA ART STUDIO</p>
          </div>
        </div>
           </nav>
@@ -87,7 +87,7 @@ function Footer() {
               <img className="column__icon" alt="icon" src={pint} />
             </a>
             </div>
-            <Link to="/*" class="header__title footer__logo">
+            <Link to="/*" class="footer__logo">
             AFANASEVA ART Studio{" "}
           </Link>
           </div>
@@ -101,7 +101,7 @@ function Footer() {
               Telegram, WhatsApp <span className="footer__span">+375-44-741-00-40</span>
             </p>
             <p className="footer__pravila">Правила и Условия</p>
-            <p className="footer__copy">© 2023 AFANASEVA ART STUDIO</p>
+            <p className="footer__copy">© 2024 AFANASEVA ART STUDIO</p>
           </div>
         </div>
         </div>
