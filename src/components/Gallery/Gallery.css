@@ -1,0 +1,93 @@
+.gallery {
+  width: 100%;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 450px) {
+  .gallery__container {
+    display: flex;
+		gap: 16px;
+    flex-direction: row;
+    scroll-snap-type: x mandatory;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scrollbar-width: none;
+    cursor: grab;
+    width: 100%;
+		margin-left: 25px;
+		margin-bottom: 32px;
+  }
+
+  .gallery__container::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  .gallery__picture {
+    min-width: 180px;
+    max-width: 180px; 
+    height: 299px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+  
+  }
+
+  /* Убедитесь, что последняя карточка не добавляет пустое пространство */
+  .gallery__picture:last-child {
+    margin-right: 0;
+  }
+}
+
+	/* .gallery__container {
+		display: flex;
+		flex-direction: row;
+		/* grid-gap: 1rem;
+		overflow-x: auto;
+		scroll-snap-type: x;
+		justify-content: flex-start;
+		scroll-behavior: smooth;
+		scrollbar-width: none; */
+		/* margin: 0 32px; */
+	
+	
+	/* .gallery__picture {
+		width: 180px;
+		height: 299px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		/* margin-left: 24px; */
+		/* scroll-snap-align: start; */
+	
+
+
+.gallery__loockbook {
+  margin: 32px 0 32px 0;
+}
+
+.card-1 {
+  background-image: url("../../images/look2.png");
+}
+
+.card-2 {
+  background-image: url("../../images/look1.png");
+}
+
+.card-3 {
+  background-image: url("../../images/look3.png");
+}
+.card-4 {
+  background-image: url("../../images/look4.png");
+}
+.card-5 {
+  background-image: url("../../images/look5.png");
+}
+.card-6 {
+  background-image: url("../../images/look6.png");
+}
+.card-7 {
+  background-image: url("../../images/look7.png");
+}
+.card-8{
+  background-image: url("../../images/look8.png");
+}

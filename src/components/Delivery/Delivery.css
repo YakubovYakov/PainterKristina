@@ -1,0 +1,218 @@
+.delivery {
+  background-image: url(../../images/del-pic.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-left: 96px;
+}
+
+.delivery__title {
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 134px;
+  margin: 120px 0 56px 0;
+  font-family: "Roboto Flex";
+}
+
+.delivery__content {
+  max-width: 992px;
+  padding-bottom: 186px;
+}
+
+.delivery__list {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid white;
+  margin: 16px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .delivery__title {
+    font-size: 104px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110px;
+  }
+
+  .delivery__content {
+    padding-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .delivery {
+    background-image: url(../../images/Frame\ 514551.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-left: 0;
+    padding-bottom: 550px;
+  }
+
+  .delivery__content {
+    max-width: 944px;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .delivery {
+    background-image: url(../../images/Frame\ 514563.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-left: 0;
+    padding-bottom: 550px;
+  }
+
+  .delivery__title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    margin: 72px 0 48px 0;
+    font-family: "Roboto Flex";
+  }
+
+  .delivery__content {
+    max-width: 696px;
+    padding-bottom: 0;
+  }
+
+  .delivery__list {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border-bottom: 1px solid white;
+    margin: 16px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../images/Frame\ 514551.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-left: 0;
+    padding-bottom: 300px;
+    background-size: contain;
+  }
+
+  .delivery__title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    margin: 40px 0 48px 0;
+    font-family: "Roboto Flex";
+  }
+
+  .delivery__content {
+    max-width: 416px;
+    padding-bottom: 0;
+  }
+
+  .delivery__list {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    border-bottom: 1px solid white;
+    margin: 16px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .delivery {
+    background-image: url(../../images/Frame\ 514551.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0;
+    padding-bottom: 295px;
+    background-size: contain;
+  }
+
+	
+
+  .delivery__title {
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    margin: 32px 24px 24px;
+  }
+
+  .delivery__content {
+    padding: 0;
+    margin: 0;
+    /* width: 320px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delivery__list {
+    justify-content: center;
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    width: 320px;
+    padding: 16px 0px;
+    padding-left: 5px;
+    gap: 8px;
+    align-items: baseline;
+    margin: 0;
+  }
+
+  .delivery__list:last-child {
+    border: 0;
+  }
+
+  .delivery__text {
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* .delivery {
+    padding-bottom: 164px;
+  } */
+
+  .delivery__content {
+    margin: 0 24px;
+    max-width: 272px;
+  }
+
+  .delivery__list {
+    width: 272px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+	.delivery {
+		padding-bottom: 295px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.delivery {
+    padding-bottom: 164px;
+  }
+}

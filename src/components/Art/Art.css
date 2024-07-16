@@ -1,0 +1,224 @@
+.art {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.art__img {
+  width: 320px;
+  height: 152px;
+  padding: 0;
+}
+
+.art__description {
+  width: 1000px;
+  padding: 72px 120px;
+  display: flex;
+  background: #9ca3af;
+  flex-direction: column;
+}
+
+.art__title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 42px;
+  margin: 0 0 56px 0;
+}
+
+.art__name {
+  width: 844px;
+  font-family: "Laqonic 4F Unicase";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 112px;
+  margin: 0 0 85px 0;
+}
+
+.art__text {
+  width: 518px;
+  height: 140px;
+  font-family: "Roboto Flex";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 0;
+}
+
+.art__text_container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1350px) {
+  .art__description {
+    width: 933px;
+    padding: 72px 72px;
+  }
+
+  .art__text {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .art__description {
+    width: 760px;
+
+    padding: 64px;
+    margin: 596px 40px 0 0;
+  }
+
+  .art__title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    margin: 0 0 56px 0;
+  }
+
+  .art__name {
+    width: 844px;
+    font-family: "Laqonic 4F Unicase";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    margin: 0 0 85px 0;
+  }
+
+  .art__text {
+    width: 518px;
+    height: 140px;
+    font-family: "Roboto Flex";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 0;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /* .art {
+        margin-top: 50px;
+        background-position: center;
+        background-size: cover;
+       
+     } */
+
+  .art__description {
+    width: 664px;
+    padding: 48px;
+    margin: 493px 36px 0 0;
+  }
+
+  .art__title {
+    font-size: 30px;
+    margin: 0 0 40px 0;
+    line-height: 36px;
+  }
+
+  .art__name {
+    width: 563px;
+    margin: 0 0 56px 0;
+  }
+
+  .art__text {
+    width: 422px;
+    height: 113px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* .art {
+     
+        background-position: center;
+        background-size: cover;
+    } */
+
+  .art__description {
+    width: 346px;
+    padding: 32px;
+    margin: 250px 32px 0 0;
+  }
+
+  .art__title {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 8px 0;
+  }
+
+  .art__name {
+    font-size: 32px;
+    line-height: 38px;
+    width: 282px;
+    margin: 0 0 24px 0;
+  }
+
+  .art__text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 224px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+	.art {
+		margin-top: 8px;
+		align-items: center;
+	}
+  .art__img {
+    margin-bottom: 119px;
+		width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .art__description {
+    position: absolute;
+    width: 224px;
+    padding: 24px;
+    margin: 110px 24px 0 24px;
+  }
+
+  .art__title {
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 18px;
+    margin: 0 0 8px 0;
+  }
+
+  .art__name {
+    color: #fff;
+    text-align: right;
+    font-family: "Laqonic 4F Unicase";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    max-width: 211px;
+    margin: 0 0 24px 0;
+  }
+
+  .art__text {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 224px;
+    text-align: start;
+  }
+
+	
+}

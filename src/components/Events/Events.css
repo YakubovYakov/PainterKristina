@@ -1,0 +1,109 @@
+@media screen and (max-width: 450px) {
+	.events {
+		margin-bottom: 40px;
+	}
+
+  .events__container {
+    padding: 16px;
+    text-align: center;
+    background: #c09300;
+    width: fit-content;
+    margin: 32px 0 0 0;
+  }
+
+  .events__title {
+    margin: 0;
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .events__text {
+		margin: 32px 24px 16px 24px;
+    max-width: 272px;
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+	.events__form {
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin: 0 24px 0 24px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+		max-width: 320px;
+	}
+
+  .events__input {
+		display: flex;
+		/* min-width: 272px; */
+		padding: 16px 0 16px 0;
+    border: 0;
+    background-color: transparent;
+		flex-grow: 1;
+  }
+	
+	.events__input-button {
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.events__input-button img {
+		width: 24px; 
+		height: 24px;
+	}
+
+  .events__input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto Flex";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+	.events__form {
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin: 0 24px 0 24px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+		max-width: 272px;
+	}
+
+  .events__input {
+		display: flex;
+		/* min-width: 272px; */
+		padding: 16px 0 16px 0;
+    border: 0;
+    background-color: transparent;
+		flex-grow: 1;
+  }
+	
+	.events__input-button {
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
