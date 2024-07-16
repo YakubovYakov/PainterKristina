@@ -494,7 +494,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
-    /* 128.571% */
     letter-spacing: 0.84px;
   }
 
@@ -508,6 +507,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
+		border-bottom: 3px solid #FFF;
   }
 
   .column__name {
@@ -572,7 +572,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .column {
     display: flex;
     flex-direction: column;

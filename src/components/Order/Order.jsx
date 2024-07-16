@@ -1,26 +1,28 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import arrow from "../../images/Arrow 7.svg";
+import img from "../../images/order.png";
 
 function Order() {
   const { t } = useTranslation();
   return (
-    <section className="order">
-      <h1 className="order__title">ЗАКАЗАТЬ КАРТИНУ</h1>
-      <form className="order__list">
-        <p className="order__paragraph">
-          Имя
-          <input className="order__item" type="text" name="name" />
+    <section class="order">
+      <h1 class="order__title">ЗАКАЗАТЬ КАРТИНУ</h1>
+      <form class="order__list">
+        <p class="order__paragraph">
+          <label for="name">Имя</label>
+          <input class="order__item" type="text" id="name" name="name" />
         </p>
-        <p className="order__paragraph">
-          Почта
-          <input className="order__item" type="email" name="email" />
+        <p class="order__paragraph">
+          <label for="email">Почта</label>
+          <input class="order__item" type="email" id="email" name="email" />
         </p>
-        <p className="order__paragraph">
-          Сообщение
-          <input className="order__item" type="text" name="message" />
+        <p class="order__paragraph">
+          <label for="message">Сообщение</label>
+          <input class="order__item" type="text" id="message" name="message" />
         </p>
       </form>
+
       <div className="order__container">
         <form className="order__checkbox">
           <input className="order__input-checkbox" type="checkbox" />
@@ -33,6 +35,9 @@ function Order() {
           <img alt="Submit" src={arrow} />
         </button>
       </div>
+			<div className="order__img-container">
+				<img className="order__img" src={img} alt="image lion" />
+			</div>
     </section>
   );
 }

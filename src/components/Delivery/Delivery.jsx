@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 
 function Delivery() {
   const { t } = useTranslation();
+
+
   return (
     <section className="delivery">
       <h1 className="delivery__title">ДОСТАВКА</h1>
@@ -32,6 +34,7 @@ function Delivery() {
           </p>
         </li>
       </ol>
+			<div className="delivery__img"></div>
     </section>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import arrow from "../../images/Arrow 7.svg";
 // import coop from "../../images/cooperation.png";
-// import coop_bot from "../../images/Frame 514543.png";
+import cooperation_img from "../../images/Frame 514543.png";
 import { useTranslation } from "react-i18next";
 
 function Cooperation() {
@@ -24,6 +24,9 @@ function Cooperation() {
         <Link href="" target="blank" className="cooperation__link">
           ПРИСОЕДИНИТЬСЯ <img alt="Submit" src={arrow} />
         </Link>
+      </div>
+      <div className="cooperation__img-content">
+        <img className="cooperation__img" src={cooperation_img} alt="-" />
       </div>
     </section>
   );

@@ -171,9 +171,17 @@
 }
 
 @media screen and (max-width: 450px) {
+	.art {
+		margin-top: 8px;
+		align-items: center;
+	}
   .art__img {
     margin-bottom: 119px;
-    margin-top: 8px;
+		width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .art__description {
@@ -211,4 +219,6 @@
     max-width: 224px;
     text-align: start;
   }
+
+	
 }

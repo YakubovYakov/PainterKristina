@@ -1,6 +1,6 @@
 .order {
   padding: 120px 0 0 96px;
-  background-image: url(../../images/order.png);
+  /* background-image: url(../../images/order.png); */
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -123,6 +123,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+		display: flex;
+		flex-direction: column;
   }
 
   .order__item {
@@ -143,6 +145,8 @@
 	.order__container {
 		display: flex;
 		flex-direction: column;
+		z-index: 1;
+		position: relative;
 		align-items: flex-start;
 	}
 
@@ -196,9 +200,6 @@
   .order__input-button {
 		display: flex;
 		align-items: center;
-		margin: 32px 0 0 0;
-		gap: 16px;
-		width: 90px;
     color: rgba(255, 255, 255, 0.7);
     font-family: "Roboto Flex";
     font-size: 14px;
@@ -209,12 +210,30 @@
     border: none;
     padding: 0;
     cursor: pointer;
-    
+    margin-top: 32px;
   }
 
   .order__input-button img {
     width: 24px;
     height: 24px;
 		opacity: 0.7;
+		margin-left: 16px;
   }
+
+	.order__img-container {
+		display: flex;
+		width: 100%;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.order__img {
+		width: 300px;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		
+	}
 }

@@ -5,7 +5,10 @@
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: row-reverse;
+  align-self: center;
+  width: 100%;
+  justify-content: center;
+  /* flex-direction: row-reverse; */
   background-size: contain;
 }
 
@@ -647,6 +650,7 @@
     margin: 100px 24px 0 24px;
     width: 272px;
     padding: 24px 24px 40px 24px;
+    align-items: baseline;
   }
 
   .about__text {
@@ -662,6 +666,9 @@
 
   .about__snake {
     margin: 0 0 32px 24px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
   }
 
   .about__snake_text {
@@ -748,8 +755,10 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
-    padding: 16px 0;
+    align-items: baseline;
+    padding: 16px 24px;
+    width: 100%;
+    border-top: 1px solid #ffffff;
   }
 
   .table__arrow {

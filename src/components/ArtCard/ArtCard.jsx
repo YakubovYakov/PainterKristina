@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 /** Белый прайс */
 import whitePrice from "../../images/img/price-white.png";
 /** Маленький прайс */
-import smallPrice from "../../images/img/price-small.png"
+import smallPrice from "../../images/img/price-small.png";
 //Пионы
 import pion1 from "../../images/img/pion1-min.png";
 import pion2 from "../../images/img/pion2-min.png";
@@ -22,6 +22,7 @@ import eagle2 from "../../images/img/heagle2-min.png";
 // -----------
 //Бабочка
 import butterfly1 from "../../images/img/butterfly1-min.png";
+import butterfly2 from "../../images/img/batterfly-interier.png";
 /** Вторая картинка бабочки */
 import priceMedium from "../../images/img/price-medium.png";
 // ------------
@@ -37,6 +38,7 @@ import goldEagle1 from "../../images/img/gold-eagle1-min.png";
 import goldEagle2 from "../../images/img/gold-eagle-2-min.png";
 /** Ирис */
 import iris1 from "../../images/img/iris1-min.png";
+import iris2 from "../../images/img/iris-interier.png";
 /** Золотой тигр */
 import goldTiger1 from "../../images/img/blue-tiger-1-min.png";
 import goldTiger2 from "../../images/img/blue-tiger-2-min.png";
@@ -48,6 +50,7 @@ import flowers1 from "../../images/img/flowers1-min-min.png";
 import flowers2 from "../../images/img/flowers-2-min.png";
 /** Лабиринт */
 import labirint1 from "../../images/img/labirint1-min.png";
+import labirint2 from "../../images/img/labirint-interier.png";
 
 import price from "../../images/price.png";
 
@@ -58,54 +61,48 @@ function ArtCard() {
   const slidesPion = [
     { image: pion1 },
     { image: pion2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
+    { image: whitePrice },
   ];
 
   const slidesMama = [
     { image: mama1 },
     { image: mama2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
+    { image: whitePrice },
   ];
 
   const slidesTiger = [
     { image: tiger1 },
     { image: tiger2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
+    { image: whitePrice },
   ];
 
   const slidesOrel = [
     { image: eagle1 },
     { image: eagle2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
+    { image: whitePrice },
   ];
 
   const slidesButterfly = [
     { image: butterfly1 },
-    { url: "https://i.ibb.co/yP0PF02/batterfly-interier.png" },
+    { image: butterfly2 },
     { image: priceMedium },
   ];
 
-  const slidesLev = [
-    { image: lion1 },
-    { image: lion2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
-  ];
+  const slidesLev = [{ image: lion1 },
+		{ image: lion2 },
+		 { image: price }];
 
-  const slidesZhuk = [
-    { image: zhuk1 },
-    { image: zhuk2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
-  ];
+  const slidesZhuk = [{ image: zhuk1 }, { image: zhuk2 }, { image: price }];
 
   const slidesGoldOrel = [
     { image: goldEagle1 },
     { image: goldEagle2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
+    { image: price },
   ];
 
   const slidesIris = [
     { image: iris1 },
-    { url: "https://i.ibb.co/dbMzqpR/iris-interier.png" },
+    { image: iris2 },
     { image: smallPrice },
   ];
 
@@ -121,19 +118,17 @@ function ArtCard() {
     { image: whitePrice },
   ];
 
-	const slidesLiliya = [
+  const slidesLiliya = [
     { image: flowers1 },
     { image: flowers2 },
-    { url: "https://i.ibb.co/c8K8Ktq/tigor-price.png" },
+    { image: price },
   ];
 
   const slidesLabirint = [
     { image: labirint1 },
-    { url: "https://i.ibb.co/5nQBHNY/labirint-interier.png" },
+    { image: labirint2 },
     { image: smallPrice },
   ];
-
-  
 
   return (
     <section className="art-container">

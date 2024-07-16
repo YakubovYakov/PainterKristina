@@ -586,7 +586,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
   .shop {
     margin: 0;
     border-bottom: #fff 1px solid;
@@ -690,7 +690,7 @@
     margin: 0 0 0 24px;
     column-gap: 0;
     row-gap: 0px;
-    width: 268px;
+    max-width: 320px;
   }
 
   .column__design {

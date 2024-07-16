@@ -67,6 +67,11 @@ function Gallery() {
         <div className="gallery__picture card-1" alt="card1"></div>
         <div className="gallery__picture card-2" alt="card1"></div>
         <div className="gallery__picture card-3" alt="card1"></div>
+        <div className="gallery__picture card-4" alt="card1"></div>
+        <div className="gallery__picture card-5" alt="card1"></div>
+        <div className="gallery__picture card-6" alt="card1"></div>
+        <div className="gallery__picture card-7" alt="card1"></div>
+        <div className="gallery__picture card-8" alt="card1"></div>
       </div>
     </section>
   );

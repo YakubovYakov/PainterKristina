@@ -66,13 +66,28 @@
 }
 
 .card-1 {
-  background-image: url("../../images/model1.png");
+  background-image: url("../../images/look2.png");
 }
 
 .card-2 {
-  background-image: url("../../images/model1.png");
+  background-image: url("../../images/look1.png");
 }
 
 .card-3 {
-  background-image: url("../../images/model1.png");
+  background-image: url("../../images/look3.png");
+}
+.card-4 {
+  background-image: url("../../images/look4.png");
+}
+.card-5 {
+  background-image: url("../../images/look5.png");
+}
+.card-6 {
+  background-image: url("../../images/look6.png");
+}
+.card-7 {
+  background-image: url("../../images/look7.png");
+}
+.card-8{
+  background-image: url("../../images/look8.png");
 }
