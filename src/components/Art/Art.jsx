@@ -9,7 +9,7 @@ function Art() {
 			<img className="art__img" alt="Tiger pic" src={artPic} />
       <div className="art__description">
         <h1 className="art__title">{t('art')}</h1>
-        <h2 class="art__name">{t('full name')}</h2>
+        <h2 className="art__name">{t('full name')}</h2>
         <div className="art__text_container">
           <p className="art__text">
           {t('art subtitle')}

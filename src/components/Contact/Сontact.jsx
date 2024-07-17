@@ -15,9 +15,11 @@ function Contact() {
           <div>
             <h2 className="contact__column_title">Искусство</h2>
             <ol className="column">
-							<li className="column__name">Творческая мастерская</li>
-              <li className="column__adress">2 переулок Петра Алексеева, д.2, стр.1</li>
-							<li className="column__adress">Москва</li>
+              <li className="column__name">Творческая мастерская</li>
+              <li className="column__adress">
+                2 переулок Петра Алексеева, д.2, стр.1
+              </li>
+              <li className="column__adress">Москва</li>
               <li className="column__phone">+7- 968 760.73.10</li>
               <li className="column__email">Rmkrnet2022@gmail.com</li>
             </ol>
@@ -26,8 +28,20 @@ function Contact() {
             <div className="column__grafik">{t("mast grafik")}</div>
 
             <div className="column__contact">
-              <img className="column__icon" alt="icon" src={inst} />
-              <img className="column__icon" alt="icon" src={pint} />
+              <a
+                href="https://instagram.com/art_kristina_juicy?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="column__icon" alt="icon" src={inst} />
+              </a>
+              <a
+                href="https://pin.it/6MxXNzW"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="column__icon" alt="icon" src={pint} />
+              </a>
             </div>
           </div>
         </div>
@@ -44,8 +58,6 @@ function Contact() {
           </div>
           <div className="column__right">
             <div className="column__grafik">{t("grafik23")}</div>
-
-           
           </div>
         </div>
 
@@ -60,14 +72,26 @@ function Contact() {
               <li className="column__email">Rmkrnet2022@gmail.com</li>
             </ol>
           </div>
-					
+
           <div className="column__right">
             <div className="column__grafik">{t("grafik22")}</div>
           </div>
-					<div className="column__contact">
+          <div className="column__contact">
+            <a
+              href="https://instagram.com/icon_juicy?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="column__icon" alt="icon" src={inst} />
+            </a>
+            <a
+              href="https://pin.it/6MxXNzW"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="column__icon" alt="icon" src={pint} />
-            </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>

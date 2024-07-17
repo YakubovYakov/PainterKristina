@@ -23,11 +23,11 @@ const Navbar = () => {
   };
   return (
     <>
-      <div class="header">
-        <Link to="/*" class="header__title">
+      <div className="header">
+        <Link to="/*" className="header__title">
           AFANASEVA ART Studio{" "}
         </Link>
-        <ol class="header__right">
+        <ol className="header__right">
            <button className="header__lang" onClick={handleLenguageChange}>
                 {language === 'ru' ? t('EN') : t('RU')}
             </button>
@@ -41,11 +41,11 @@ const Navbar = () => {
         <div
           className={nav ? [style.menu, style.active].join(" ") : [style.menu]}
         >
-          <div class="header menu__header">
-            <Link onClick={() => setNav(false)} to="/*" class="header__title">
+          <div className="header menu__header">
+            <Link onClick={() => setNav(false)} to="/*" className="header__title">
               AFANASEVA ART Studio{" "}
             </Link>
-            <ol class="header__right">
+            <ol className="header__right">
             <button className="header__lang" onClick={handleLenguageChange}>
                 {language === 'ru' ? t('EN') : t('RU')}
             </button>
@@ -54,21 +54,21 @@ const Navbar = () => {
               </div>
             </ol>
           </div>
-          <h1 class="menu__title">{t('menu')}</h1>
-          <ol class="menu__links">
-            <Link onClick={() => setNav(false)} to="/art" class="menu__link">
+          <h1 className="menu__title">{t('menu')}</h1>
+          <ol className="menu__links">
+            <Link onClick={() => setNav(false)} to="/art" className="menu__link">
             {t('art')}{" "}
             </Link>
-            <Link onClick={() => setNav(false)} to="/design" class="menu__link">
+            <Link onClick={() => setNav(false)} to="/design" className="menu__link">
             {t('design')}{" "}
             </Link>
-            <Link onClick={() => setNav(false)} to="/about" class="menu__link">
+            <Link onClick={() => setNav(false)} to="/about" className="menu__link">
               {t('about')}{" "}
             </Link>
             <Link
               onClick={() => setNav(false)}
               to="/contact"
-              class="menu__link"
+              className="menu__link"
             >
               {t('contact')}{" "}
             </Link>

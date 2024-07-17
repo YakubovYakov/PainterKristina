@@ -15,7 +15,7 @@ import Order from "../Order/Order";
 
 function App() {
   return (
-    <body className="main-page">
+    <div className="main-page">
       <Routes>
         <Route
           path="/*"
@@ -98,7 +98,7 @@ function App() {
           }
         />
       </Routes>
-    </body>
+    </div>
   );
 }
 
