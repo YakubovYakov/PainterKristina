@@ -15,7 +15,7 @@ import Order from "../Order/Order";
 
 function App() {
   return (
-    <div className="main-page">
+    <div>
       <Routes>
         <Route
           path="/*"
